@@ -5,16 +5,16 @@ const userController = require("../controller/users.js");
 // CREATE
 router.post("/", userController.createNewUser);
 
-// READ 
+// READ
 router.get("/", userController.getAllUsers);
 
 // GET USER PROFILE
 router.get("/:idUser", userController.getUserProfile);
 
 // UPDATE
-router.patch('/:idUser', userController.updateUser);   
+router.patch("/:idUser", userController.updateUser);
 
 // DELETE
-router.delete('/:idUser', userController.deleteUser);   
+router.delete("/:idUser", userController.deleteUser);
 
 module.exports = router;
