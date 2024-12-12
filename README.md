@@ -4,7 +4,7 @@ Repository ini bertujuan untuk menyediakan REST API yang dapat mengelola penggun
 
 ## Fitur Proyek
 
-### Endpoint
+### API Endpoint
 - **POST /users**: Membuat user baru.
 - **GET /users**: Melihat semua user.
 - **GET /users/{idUser}**: Melihat user dengan ID tertentu.
